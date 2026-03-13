@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from routing_layer import RoutingLayer
+from .routing_layer import RoutingLayer
 
 
 class AutoNN(nn.Module):
